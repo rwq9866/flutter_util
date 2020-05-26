@@ -9,11 +9,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // 应用名称
       title: Constants.APP_NAME,
       theme: ThemeData(
+        // 应用主题
         primarySwatch: Constants.THEME_COLOR,
       ),
       color: Colors.black,
+      // 应用首页路由
       home: MyHomePage(title: '首页'),
     );
   }

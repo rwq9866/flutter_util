@@ -20,11 +20,21 @@ dependencies:
   flutter:
     sdk: flutter
 
-  vibrate: ^0.0.4
+  # 震动反馈
+  flutter_vibrate: ^1.0.0
 
+  # 英文单词
   english_words: ^3.1.5
 
+  #  瀑布流
   flutter_staggered_grid_view: ^0.3.0
+
+  # 无线缓存列表
+  infinite_listview: ^1.0.1
+
+  cached_network_image: ^2.2.0
+
+  fluttertoast: ^4.0.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -47,10 +57,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
-  #  - images/a_dot_ham.jpeg
-
+  assets:
+    - images/timg.png
+    - images/pic.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

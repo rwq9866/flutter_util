@@ -31,7 +31,7 @@ class _BlogItemState extends State<BlogItem> {
                 dense: true,
                 leading: gmAvatar(
                   //项目owner头像
-                  "images/timg.png",
+                  "assets/images/timg.png",
                   width: 24.0,
                   borderRadius: BorderRadius.circular(12),
                 ),

@@ -9,7 +9,7 @@ Widget gmAvatar(String url, {
   BorderRadius borderRadius,
 }) {
   var placeholder = Image.asset(
-      "images/pic.png", //头像默认值
+      "assets/images/pic.png", //头像默认值
       width: width,
       height: height
   );
